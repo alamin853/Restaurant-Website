@@ -73,32 +73,21 @@
 .row{
     margin: 0 !important;
 }
-/* .social-icons{
+.social-icons{
     margin: 0 20px;
 }
 .social-icons .fa{
     padding: 10px;
     cursor: pointer;
-} */
+}
+.finish{
+    background: gray;
+}
+.finish p{
+    padding: 20px 0;
+}
 @media only screen and (max-width: 960px){
     .footer-widget{
         background-image: linear-gradient(#ff9800, #a46406);
     }
-}
-.footer{
-    background: gray;
-    text-align: center;
-    color: white;
-}
-.footer p{
-    margin-top: 15px;
-    left: 0;
-}
-.social-icons{
-    display: flex;
-}
-.social-icons .fa{
-    margin-top: 20px;
-    margin-left: 30px;
-    cursor: pointer;
 }
